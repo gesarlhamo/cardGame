@@ -1,28 +1,43 @@
 /*base*/
 body{
 	text-align: center;
+  background-image: url('http://wallpaper4me.com/images/wallpapers/itsmagic-59091.jpeg');
 }
+
+/*container*/
 
 /*Layout*/
 .container {
 	width:800px;
 	margin:auto;
-}
+ }
 
+#subcontainer{
+  width:710px;
+  margin:auto;
+  background-color:red;
+}
 /*Scorebaord*/
 .scoreboard {
 	text-align: center;
 	margin-bottom: 40px;
+  
+  
 }
 
 .scoreboard h1 {
     margin-bottom: 0;
+    font-family: 'Philosopher', serif;
+    font-size:50px;
+    color:orange;
   }
 
 
   .scoreboard h2 {
     margin: 0;
-    color: green;
+    color: #88A1DC;
+    font-family:'Sanchez', serif;
+    font-size:25px;
   }
 
   .game {
